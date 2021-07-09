@@ -10,5 +10,15 @@
 }
 
 .inputfield-wrapper {
-  margin-top: 50px;
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+
+.ui.input {
+  width: 100% !important;
+}
+
+.ui.primary.button.addtodo-button {
+  margin-left: 10px !important;
 }
