@@ -3,7 +3,7 @@ import './App.css';
 import 'semantic-ui-css/semantic.min.css';
 import { Container } from 'semantic-ui-react';
 import Header from './Components/Header';
-import InputField from './Components/InputField';
+// import InputField from './Components/InputField';
 // import store from './store/store';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <>
       <Container>
         <Header/>
-        <InputField/>
+        {/* <InputField/> */}
       </Container>
     </>
   );
