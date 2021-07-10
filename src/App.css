@@ -22,3 +22,24 @@
 .ui.primary.button.addtodo-button {
   margin-left: 10px !important;
 }
+
+.todolist-wrapper {
+  padding: 20px;
+}
+
+.ui.checkbox {
+  padding: 8px !important;
+}
+
+.ui.checkbox label {
+  font-size: large !important;
+}
+
+.todolist-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.ui.checkbox.checked label {
+  text-decoration: line-through;
+}
