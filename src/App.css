@@ -43,3 +43,14 @@
 .ui.checkbox.checked label {
   text-decoration: line-through;
 }
+
+.checkbox-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.red.delete.large.icon {
+  margin-right: 100px;
+}
